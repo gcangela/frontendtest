@@ -40,7 +40,7 @@ body {
 
 /* Jumbotron styles */
 .jumbotron {
-    background-image: url("../img/background.jpg") !important;
+    background-image: url("../img/background.jpg");
     color: white;
     text-align: center;
     height: 441px;
@@ -49,7 +49,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -75,16 +75,19 @@ body {
 .text-center{
     display:flex;
     align-items: center;
+    padding-bottom:0px;
 }
 .text-center-reverse{
     display:flex;
     align-items:center;
     flex-direction:row-reverse;
+    padding-bottom:0;
 }
 
 .trial {
     text-align: center;
-    padding: 10px 0px;
+    padding-top:10px ;
+    margin:0;
 
 }
 
@@ -92,42 +95,61 @@ body {
     background-color: #f3f2f1;
 
 }
-
-section {
-    border-top: 1px solid #f3f2f1;
-    border-bottom: 10px solid #f3f2f1;
+.main-content{
+    background-color:white;
+    border-bottom:1px solid #f3f2f1;
+    padding:20px 0px;
 }
 
+.trial-content {
+    background-color:white;
+    border-bottom: 20px solid #f3f2f1;
+    padding:20px 0px;
+
+}
+#trial-buttons{
+    padding:0 0 20px 0; ;
+}
 .row {
     padding: 20px 0px;
 }
 
 .or {
-    padding: 0 10px;
+    padding: 0 64px;
     text-align: center;
 }
-
+.buttons{
+    margin-top:20px;
+    text-align: center
+}
+.venue-button{
+    margin-top:20px;
+    text-align: left;
+}
 .action-button {
     background-color: #393A73;
     color: white;
-    border-radius: 0px;
+    border-radius: 1px;
     padding: 15px 35px;
+    margin-top:10px;
 }
 a.action-button:hover{
     color:white;
     text-decoration:none;
-
 }
+a.action-button:active{
+    color:white;
+    outline:none;
+}
+a.action-button:on{
+    color:white;
+}
+
 
 .action-description {
     font-weight: 600;
     text-align: center;
     margin-top: 5px !important;
-}
-
-.btn {
-    margin-top: 10px;
-
 }
 
 .button-center {
@@ -138,6 +160,7 @@ a.action-button:hover{
     font-weight: bold;
     font-size: 1.17em;
     vertical-align: top;
+
 }
 
 .venue-button {
@@ -165,7 +188,9 @@ ul {
 
 #add-venue {
     padding: 10px 20px;
-    margin-left: -15px;
+
+    border-radius: 1px;
+
 }
 
 .social-media-icons a {
@@ -205,6 +230,16 @@ ul {
         display:block;
 
     }
+    .product-display{
+        width:100%;
+    }
+    .product-heading{
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+    }
+
 }
 /* Mobile media queries */
 
@@ -221,15 +256,6 @@ ul {
         padding-bottom: 20px;
     }
 
-
-    .row.desktop {
-        display: none;
-    }
-
-    .desktop {
-        border: none;
-    }
-
     .action-button {
         padding: 15px 20px;
     }
@@ -243,13 +269,26 @@ ul {
         margin-bottom: 0;
     }
 
-    .action-description {
 
-    }
 
     .description {
         font-size: 1.4rem;
         text-align: center;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    .or{
+        padding: 0 25px;
+    }
+    .action-description {
+        font-size:2rem;
+    }
+    .trial{
+        font-size:1.5rem;
+    }
+    .product-display{
+        width:100%;
     }
 
 }
