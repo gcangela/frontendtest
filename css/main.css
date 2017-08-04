@@ -32,10 +32,6 @@ body {
     border-bottom: none;
 }
 
-.mobile-logo {
-    display: none;
-}
-
 .glyphicon-question-sign {
     margin-right: 5px;
 }
@@ -44,7 +40,7 @@ body {
 
 /* Jumbotron styles */
 .jumbotron {
-    background-image: url("/img/background.jpg") !important;
+    background-image: url("../img/background.jpg") !important;
     color: white;
     text-align: center;
     height: 441px;
@@ -74,6 +70,7 @@ body {
     padding-bottom: 10px;
     text-align: left;
     font-size: 18px;
+
 }
 .text-center{
     display:flex;
@@ -224,13 +221,6 @@ ul {
         padding-bottom: 20px;
     }
 
-    .desktop-logo {
-        display: none;
-    }
-
-    .mobile-logo {
-        display: block;
-    }
 
     .row.desktop {
         display: none;
@@ -238,13 +228,6 @@ ul {
 
     .desktop {
         border: none;
-    }
-
-    .mobile {
-        display: block;
-        margin: 0;
-        padding-bottom: 10px;
-
     }
 
     .action-button {
