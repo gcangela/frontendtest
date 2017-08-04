@@ -72,22 +72,24 @@ body {
     font-size: 18px;
 
 }
-.text-center{
-    display:flex;
+
+.text-center {
+    display: flex;
     align-items: center;
-    padding-bottom:0px;
+    padding-bottom: 0px;
 }
-.text-center-reverse{
-    display:flex;
-    align-items:center;
-    flex-direction:row-reverse;
-    padding-bottom:0;
+
+.text-center-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-bottom: 0;
 }
 
 .trial {
     text-align: center;
-    padding-top:10px ;
-    margin:0;
+    padding-top: 10px;
+    margin: 0;
 
 }
 
@@ -95,21 +97,24 @@ body {
     background-color: #f3f2f1;
 
 }
-.main-content{
-    background-color:white;
-    border-bottom:1px solid #f3f2f1;
-    padding:20px 0px;
+
+.main-content {
+    background-color: white;
+    border-bottom: 1px solid #f3f2f1;
+    padding: 20px 0px;
 }
 
 .trial-content {
-    background-color:white;
+    background-color: white;
     border-bottom: 20px solid #f3f2f1;
-    padding:20px 0px;
+    padding: 20px 0px;
 
 }
-#trial-buttons{
-    padding:0 0 20px 0; ;
+
+#trial-buttons {
+    padding: 0 0 20px 0;;
 }
+
 .row {
     padding: 20px 0px;
 }
@@ -118,33 +123,38 @@ body {
     padding: 0 64px;
     text-align: center;
 }
-.buttons{
-    margin-top:20px;
+
+.buttons {
+    margin-top: 20px;
     text-align: center
 }
-.venue-button{
-    margin-top:20px;
+
+.venue-button {
+    margin-top: 20px;
     text-align: left;
 }
+
 .action-button {
     background-color: #393A73;
     color: white;
     border-radius: 1px;
     padding: 15px 35px;
-    margin-top:10px;
-}
-a.action-button:hover{
-    color:white;
-    text-decoration:none;
-}
-a.action-button:active{
-    color:white;
-    outline:none;
-}
-a.action-button:on{
-    color:white;
+    margin-top: 10px;
 }
 
+a.action-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a.action-button:active {
+    color: white;
+    outline: none;
+}
+
+a.action-button:on {
+    color: white;
+}
 
 .action-description {
     font-weight: 600;
@@ -197,21 +207,24 @@ ul {
     margin: 0.25rem;
     color: #666;
 }
-.footer-bottom{
+
+.footer-bottom {
     color: #999;
 }
 
-.conditions{
-    color:#666;
+.conditions {
+    color: #666;
     line-height: 1.6;
 
 }
-.conditions:hover{
-    color:#666;
+
+.conditions:hover {
+    color: #666;
 }
+
 .terms {
-    padding-top:0px;
-    font-size:smaller;
+    padding-top: 0px;
+    font-size: smaller;
     color: #999;
 }
 
@@ -222,27 +235,28 @@ ul {
     }
 
 }
-@media only screen and (max-width: 767px){
-    .text-center{
-        display:block;
-    }
-    .text-center-reverse{
-        display:block;
 
+@media only screen and (max-width: 767px) {
+    .text-center {
+        display: block;
     }
-    .product-display{
-        width:100%;
+
+    .text-center-reverse {
+        display: block;
     }
-    .product-heading{
+
+    .product-heading {
         text-align: center;
     }
-    .description{
+
+    .description {
         text-align: center;
     }
 
 }
-/* Mobile media queries */
 
+/* Mobile media queries */
+/*
 @media only screen and (max-width: 480px) {
     .product-description {
         font-size: 1.8rem;
@@ -276,7 +290,7 @@ ul {
         text-align: center;
     }
 
-}
+}/*
 @media only screen and (max-width: 320px){
     .or{
         padding: 0 25px;
