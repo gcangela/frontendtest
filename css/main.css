@@ -44,7 +44,7 @@ body {
 
 /* Jumbotron styles */
 .jumbotron {
-    background-image: url("/Users/giancarlo/Documents/Dev_Projects/frontend-test-junior/src/img/background.jpg") !important;
+    background-image: url("/Users/giancarlo/Documents/Dev_Projects/frontendtest/img/background.jpg") !important;
     color: white;
     text-align: center;
     height: 441px;
