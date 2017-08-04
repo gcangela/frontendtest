@@ -78,7 +78,11 @@ body {
 .text-center{
     display:flex;
     align-items: center;
-
+}
+.text-center-reverse{
+    display:flex;
+    align-items:center;
+    flex-direction:row-reverse;
 }
 
 .trial {
@@ -197,8 +201,12 @@ ul {
 
 }
 @media only screen and (max-width: 767px){
-    .testing{
+    .text-center{
         display:block;
+    }
+    .text-center-reverse{
+        display:block;
+
     }
 }
 /* Mobile media queries */
