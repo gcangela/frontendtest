@@ -75,6 +75,11 @@ body {
     text-align: left;
     font-size: 18px;
 }
+.text-center{
+    display:flex;
+    align-items: center;
+
+}
 
 .trial {
     text-align: center;
@@ -191,7 +196,11 @@ ul {
     }
 
 }
-
+@media only screen and (max-width: 767px){
+    .testing{
+        display:block;
+    }
+}
 /* Mobile media queries */
 
 @media only screen and (max-width: 480px) {
