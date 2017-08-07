@@ -1,24 +1,25 @@
 // Task: Implement isNameInList function
 
 var names = [
-  'jax',
-  'tryndamere',
-  'anivia',
-  'ahri'
+    'jax',
+    'tryndamere',
+    'anivia',
+    'ahri'
 ];
 
 function isNameInList(name) {
-  return names.includes(name) ;
+    return names.includes(name);
 
 }
 
-console.log('Is Pikachu a league of legends champion? ' , isNameInList('pikachu'));
+console.log('Is Pikachu a league of legends champion? ', isNameInList('pikachu'));
 
+// Scroll back to top function
 
-$(document).ready(function() {
+$(document).ready(function () {
     var offset = 220;
     var duration = 500;
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if (jQuery(this).scrollTop() > offset) {
             jQuery('.back-to-top').fadeIn(duration);
         } else {
@@ -26,10 +27,9 @@ $(document).ready(function() {
         }
     });
 
-    $('.back-to-top').click(function(event) {
+    $('.back-to-top').click(function (event) {
         event.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
-
     })
 });
 
