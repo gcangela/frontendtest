@@ -242,13 +242,13 @@ ul {
 
 .back-to-top {
     position: fixed;
-    bottom: 1em;
+    bottom: 16px;
     right: 0px;
     text-decoration: none;
     color: black;
     background-color: rgba(235, 235, 235, 0.80);
-    font-size: 14px;
-    padding: 1em;
+    font-size: 16px;
+    padding: 16px;
     display: none;
 }
 
