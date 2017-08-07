@@ -1,21 +1,18 @@
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
-
 }
 
 /* Start navigation styles */
 
 .navbar-brand {
     margin-top: -1px;
-
 }
 
 .navbar-brand img {
     height: 37.5px;
     margin-top: -8px;
     margin-left: 20px;
-
 }
 
 .navbar-nav li:hover {
@@ -24,7 +21,6 @@ body {
 
 .navbar-nav li a {
     color: #222 !important;
-
 }
 
 #header-container {
@@ -169,18 +165,15 @@ a.action-button:focus {
     margin-top: 5px !important;
 }
 
-.info-link:focus {
-}
-
-}
 .button-center {
     text-align: center;
 }
 
+/* Footer top styles */
+
 .info-heading {
     font-weight: bold;
     font-size: 1.17em;
-
 }
 
 .venue-button {
@@ -224,6 +217,8 @@ ul {
     color: #666;
 }
 
+/* Footer-bottom styles */
+
 .footer-bottom {
     color: #999;
 }
@@ -243,7 +238,7 @@ ul {
     color: #999;
 }
 
-/* back to top button */
+/* Back to top button  styles*/
 
 .back-to-top {
     position: fixed;
@@ -275,12 +270,9 @@ ul {
 }
 
 @media only screen and (max-width: 767px) {
-    .text-center {
+    .text-center, .text-center-reverse {
         display: block;
-    }
-
-    .text-center-reverse {
-        display: block;
+        padding: 0;
     }
 
     .product-heading {
@@ -295,18 +287,7 @@ ul {
     .trial-content {
         padding-top: 0;
     }
-
-    .text-center-reverse {
-        padding: 0;
-    }
-
-    .text-center {
-        padding: 0;
-    }
-
 }
-
-
 
 /* Mobile media queries */
 
@@ -328,19 +309,14 @@ ul {
 
     .product-heading {
         text-align: center;
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .jumbotron {
         margin-bottom: 0;
     }
 
-
-    .text-center-reverse {
-        padding: 0;
-    }
-
-    .text-center {
+    .text-center-reverse, .text-center {
         padding: 0;
     }
 
@@ -353,7 +329,7 @@ ul {
     }
 
     .action-description {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .social-media-icons {
